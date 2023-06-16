@@ -1,0 +1,120 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(249, 255, 142);
+    width: 300px;
+    height: 450px;
+  }
+  
+  .InpDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .Inp{
+    width: 200px;
+    margin-top: 2rem;
+    height: 50px;
+    border-radius: 5px;
+     outline: none;
+    border: none;
+  }
+  
+  .Inp:focus{
+    border: 1px solid black;
+  }
+  
+  .loginBtn{
+    margin-top: 1rem;
+    padding: 15px 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .HomeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .CarDiv{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    margin-top: 5rem;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+  }
+  
+  .btnDiv{
+    margin-top: 2rem 
+  }
+  
+  .btnDiv button{
+    margin: 1rem;
+  }
+  
+  .labelCar{
+    margin: 1rem;
+  }
+  
+  .carMake{
+    margin-bottom: 0.5rem;
+  }
+  
+  .carModel{
+    margin-bottom: 0.5rem;
+  }
+  
+  .registrationNumber{
+    margin-bottom: 0.5rem;
+  }
+  
+  .AddBtn{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button{
+    background: grey;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .column{
+    flex-direction: column;
+  }
+
+  .justify-center{
+    justify-content: center;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+
+  .no-margin{
+    margin: 0;
+  }
