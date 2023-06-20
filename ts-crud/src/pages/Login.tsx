@@ -15,7 +15,7 @@ export default function Login(){
 
   // login Function which checks if password and username matches to the one in our state || Displays Error if not.
   function handleLogin(){
-      if(name !== userCred.name || pass !== userCred.pass){
+      if(!name || !pass || name !== userCred.name || pass !== userCred.pass){
         setLoginError(true)
         return
      }
